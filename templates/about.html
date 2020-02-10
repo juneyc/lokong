@@ -1,0 +1,13 @@
+{% extends 'layouttwo.html' %}
+{% block title%} About me {% endblock %}
+
+{% block content %}
+    {{ title }}
+    <p>Welcome to My About Page</p>
+
+
+    <div id="chart">
+       <embed type="image/svg+xml" src= {{ line_graph |safe }} />
+   </div>
+
+{% endblock %}

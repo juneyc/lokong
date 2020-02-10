@@ -1,0 +1,21 @@
+{% extends 'layouttwo.html' %}
+{% block title%} Home Page {% endblock %}
+
+{% block content %}
+    {{ title }}
+
+   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque expedita natus officia recusandae. Alias dolores exercitationem labore possimus quidem voluptas voluptatum! Iste possimus provident reiciendis totam unde ut vel veniam.</p>
+
+    <div id="chart">
+       <embed type="image/svg+xml" src= {{ line_graph|safe }} />
+   </div>
+
+    <div id="chart">
+       <embed type="image/svg+xml" src= {{ pie_data|safe }} />
+   </div>
+
+
+{% endblock %}
+
+{#Safe format ensures the date is passed as image or text format in the browser#}
+{#define embed type to covert data to your choice of graph, chart#}
