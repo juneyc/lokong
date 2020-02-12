@@ -1,0 +1,2 @@
+class Development():
+    SQLALCHEMY_TRACK_MODIFICATIONS=FALSE
