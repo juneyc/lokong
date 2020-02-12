@@ -75,8 +75,8 @@ def index():
 
     return render_template('index.html', line_graph=line_graph, pie_data=pie_data)
 
-@app.route('/about')
-# def about():
+# @app.route('/about')
+# # def about():
 #     #conn = psycopg2.connect("dbname= 'postgres' user='postgres' host='localhost' password= 'Vampires57'")
 #     #cur = conn.cursor
 #     #cur.execute("""SELECT EXTRACT (MONTH FROM sares.created_at) AS MONTHS ,
