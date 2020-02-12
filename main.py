@@ -75,15 +75,20 @@ def index():
 
     return render_template('index.html', line_graph=line_graph, pie_data=pie_data)
 
-# @app.route('/about')
-# # def about():
-#     #conn = psycopg2.connect("dbname= 'postgres' user='postgres' host='localhost' password= 'Vampires57'")
-#     #cur = conn.cursor
-#     #cur.execute("""SELECT EXTRACT (MONTH FROM sares.created_at) AS MONTHS ,
-# # SUM (sares.quantity) as "TOTAL SALES" FROM public.sares
-# # GROUP BY months
-# # ORDER BY months""")
-#
+@app.route('/about')
+def about():
+    # conn = psycopg2.connect("dbname= 'postgres' user='postgres' host='localhost' password= 'Vampires57'")
+    conn= psycopg2.connect("dbname= d8edv01tcu5qdj user=ageqcumlyzcwen' host='ec2-18-210-51-239.compute-1.amazonaws.com' password= 'c0fd2b34c2cae895435eec2378588310bbf2d601fcecd9282126e3dc1b274854'")
+    cur = conn.cursor
+    cur.execute("CREATE TABLE customers (id serial PRIMARY KEY,first_name VARCHAR(50),last_name VARCHAR(50),email VARCHAR(50),address VARCHAR(50);")
+    # cur.execute("insert into customers (id, first_name, last_name, email, address) values ('Hestia', 'Espine', 'hespine0@seesaa.net', '778 Buena Vista Trail');")
+
+    conn.commit()
+#     cur.execute("""SELECT EXTRACT (MONTH FROM sares.created_at) AS MONTHS ,
+# SUM (sares.quantity) as "TOTAL SALES" FROM public.sares
+# GROUP BY months
+# ORDER BY months""")
+
 #     #records = cur.fetchall()
 #     # data1 = []
 #     # data2 = []
@@ -99,8 +104,9 @@ def index():
 #     # browser.x_labels = data1
 #     # browser.add('Sales', data2)
 #     # line_graph = browser.render_data_uri()
+#     ,title= 'Sheer Excitement',line_graph=line_graph
 #
-#     # return render_template('about.html',title= 'Sheer Excitement',line_graph=line_graph)
+    return render_template('about.html')
 
 # @app.route('/services')
 # def services():
