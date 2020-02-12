@@ -77,12 +77,12 @@ def index():
 
 @app.route('/about')
 def about():
-    conn = psycopg2.connect("dbname= 'postgres' user='postgres' host='localhost' password= 'Vampires57'")
-    cur = conn.cursor
-    cur.execute("""SELECT EXTRACT (MONTH FROM sares.created_at) AS MONTHS , 
-SUM (sares.quantity) as "TOTAL SALES" FROM public.sares 
-GROUP BY months 
-ORDER BY months""")
+    #conn = psycopg2.connect("dbname= 'postgres' user='postgres' host='localhost' password= 'Vampires57'")
+    #cur = conn.cursor
+    #cur.execute("""SELECT EXTRACT (MONTH FROM sares.created_at) AS MONTHS ,
+# SUM (sares.quantity) as "TOTAL SALES" FROM public.sares
+# GROUP BY months
+# ORDER BY months""")
 
     records = cur.fetchall()
     data1 = []
