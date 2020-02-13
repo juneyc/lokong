@@ -82,7 +82,8 @@ def about():
     conn= psycopg2.connect ("dbname=d8edv01tcu5qdj user=ageqcumlyzcwen host=ec2-18-210-51-239.compute-1.amazonaws.com password=c0fd2b34c2cae895435eec2378588310bbf2d601fcecd9282126e3dc1b274854")
     cur = conn.cursor()
     # create table script
-    cur.execute("SELECT * FROM sales;")
+    cur.execute( """SELECT EXTRACT (MONTH FROM sales.created_at) AS MONTHS , SUM (sares.quantity) as "TOTAL SALES" FROM public.sales GROUP BY months ORDER BY months""")
+
     cur.fetchall()
     # cur.execute("insert into customers (id, first_name, last_name, email, address) values ('Hestia', 'Espine', 'hespine0@seesaa.net', '778 Buena Vista Trail');")
 

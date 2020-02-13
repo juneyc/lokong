@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f2a92c9e-19a9-4886-9406-85043d739e95" name="Default" comment="" />
+    <list default="true" id="f2a92c9e-19a9-4886-9406-85043d739e95" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -34,8 +36,8 @@
       <file leaf-file-name="main.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1241">
-              <caret line="166" column="85" lean-forward="true" selection-start-line="166" selection-start-column="85" selection-end-line="166" selection-end-column="85" />
+            <state relative-caret-position="187">
+              <caret line="91" column="17" lean-forward="true" selection-start-line="91" selection-start-column="17" selection-end-line="91" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -733,8 +735,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1241">
-          <caret line="166" column="85" lean-forward="true" selection-start-line="166" selection-start-column="85" selection-end-line="166" selection-end-column="85" />
+        <state relative-caret-position="187">
+          <caret line="91" column="17" lean-forward="true" selection-start-line="91" selection-start-column="17" selection-end-line="91" selection-end-column="17" />
         </state>
       </provider>
     </entry>
