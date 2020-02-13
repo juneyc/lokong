@@ -84,12 +84,10 @@ def about():
     # create table script
     cur.execute( """SELECT EXTRACT (MONTH FROM sales.created_at) AS MONTHS , SUM (sales.quantity) as "TOTAL SALES" FROM public.sales GROUP BY months ORDER BY months""")
 
-    cur.fetchall()
+    # cur.fetchall()
     # cur.execute("insert into customers (id, first_name, last_name, email, address) values ('Hestia', 'Espine', 'hespine0@seesaa.net', '778 Buena Vista Trail');")
 
-    conn.commit()
-    cur.close()
-    conn.close()
+
 #     cur.execute("""SELECT EXTRACT (MONTH FROM sares.created_at) AS MONTHS ,
 # SUM (sares.quantity) as "TOTAL SALES" FROM public.sares
 # GROUP BY months
@@ -111,6 +109,9 @@ def about():
     browser.add('Sales', data2)
     line_graph = browser.render_data_uri()
 
+    conn.commit()
+    cur.close()
+    conn.close()
     return render_template('about.html',title= 'Sheer Excitement',line_graph=line_graph)
 
 # @app.route('/services')
