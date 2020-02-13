@@ -1,0 +1,24 @@
+pgadmin.PSQL
+1. Host- 
+2. User-postgres
+3. Password
+4. DB
+
+
+DB-Sales system
+learn machine learning using the same-predictive modelling
+EDA- Exploratory Data Analysis(EDA) and Data 
+
+trigger function- function invoked when an event happens
+
+logging-keep track of stuff you doing.
+synchronous- event happens and user is waiting
+Asynchronous- happens in the background
+
+views (store big queries and refer therein)
+DB replication; back up
+
+create table; have ERD first
+DB by default naming is plural
+model default singular
+white labelling-having a DB that customer believess that they are the only users of the DB even if there are 1,000 customers who have parallel DBs

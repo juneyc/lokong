@@ -1,0 +1,37 @@
+create table customers (
+	id INT,
+	first_name VARCHAR(50),
+	last_name VARCHAR(50),
+	email VARCHAR(50),
+	address VARCHAR(50)
+);
+insert into customers (id, first_name, last_name, email, address) values (1, 'Hestia', 'Espine', 'hespine0@seesaa.net', '778 Buena Vista Trail');
+insert into customers (id, first_name, last_name, email, address) values (2, 'Tabbatha', 'Warlaw', 'twarlaw1@usda.gov', '77 Hollow Ridge Terrace');
+insert into customers (id, first_name, last_name, email, address) values (3, 'Jordon', 'Tolland', 'jtolland2@umn.edu', '44433 East Alley');
+insert into customers (id, first_name, last_name, email, address) values (4, 'Merrile', 'Kensitt', 'mkensitt3@cafepress.com', '7 Dottie Crossing');
+insert into customers (id, first_name, last_name, email, address) values (5, 'Charisse', 'Zipsell', 'czipsell4@wp.com', '3 Bayside Junction');
+insert into customers (id, first_name, last_name, email, address) values (6, 'Barb', 'Lamblot', 'blamblot5@apache.org', '288 Union Street');
+insert into customers (id, first_name, last_name, email, address) values (7, 'Cathy', 'Clowney', 'cclowney6@zimbio.com', '528 Bunker Hill Park');
+insert into customers (id, first_name, last_name, email, address) values (8, 'Binni', 'Mansfield', 'bmansfield7@list-manage.com', '2956 Sauthoff Circle');
+insert into customers (id, first_name, last_name, email, address) values (9, 'Harlan', 'Astridge', 'hastridge8@amazon.co.jp', '2 5th Terrace');
+insert into customers (id, first_name, last_name, email, address) values (10, 'Arvie', 'Dedman', 'adedman9@weibo.com', '90 Parkside Lane');
+insert into customers (id, first_name, last_name, email, address) values (11, 'Maggi', 'Rigts', 'mrigtsa@artisteer.com', '676 Hagan Plaza');
+insert into customers (id, first_name, last_name, email, address) values (12, 'Katheryn', 'Sute', 'ksuteb@un.org', '96480 Harbort Hill');
+insert into customers (id, first_name, last_name, email, address) values (13, 'Gwyn', 'Fisk', 'gfiskc@deviantart.com', '129 Cottonwood Alley');
+insert into customers (id, first_name, last_name, email, address) values (14, 'Ali', 'Drennan', 'adrennand@buzzfeed.com', '9 Stephen Street');
+insert into customers (id, first_name, last_name, email, address) values (15, 'Kleon', 'Sadat', 'ksadate@biglobe.ne.jp', '1 Schurz Terrace');
+insert into customers (id, first_name, last_name, email, address) values (16, 'Lynnet', 'Pardal', 'lpardalf@independent.co.uk', '1165 Monterey Parkway');
+insert into customers (id, first_name, last_name, email, address) values (17, 'Aime', 'Gallichiccio', 'agallichicciog@timesonline.co.uk', '35 Columbus Hill');
+insert into customers (id, first_name, last_name, email, address) values (18, 'Haley', 'Bursnell', 'hbursnellh@pen.io', '3890 Park Meadow Lane');
+insert into customers (id, first_name, last_name, email, address) values (19, 'Immanuel', 'Braunston', 'ibraunstoni@diigo.com', '3525 Stang Parkway');
+insert into customers (id, first_name, last_name, email, address) values (20, 'Annetta', 'Castagnaro', 'acastagnaroj@house.gov', '718 Birchwood Circle');
+insert into customers (id, first_name, last_name, email, address) values (21, 'Michail', 'Fielders', 'mfieldersk@unc.edu', '004 Crownhardt Center');
+insert into customers (id, first_name, last_name, email, address) values (22, 'Dylan', 'Pidcock', 'dpidcockl@cloudflare.com', '08 Burrows Place');
+insert into customers (id, first_name, last_name, email, address) values (23, 'Norbie', 'Blanko', 'nblankom@discovery.com', '39926 Redwing Place');
+insert into customers (id, first_name, last_name, email, address) values (24, 'Fayre', 'Edgson', 'fedgsonn@microsoft.com', '16818 Golden Leaf Place');
+insert into customers (id, first_name, last_name, email, address) values (25, 'Lena', 'Inch', 'lincho@chicagotribune.com', '197 Monument Park');
+insert into customers (id, first_name, last_name, email, address) values (26, 'Mac', 'Lampl', 'mlamplp@ca.gov', '41 Onsgard Pass');
+insert into customers (id, first_name, last_name, email, address) values (27, 'Merralee', 'Georg', 'mgeorgq@live.com', '881 Novick Park');
+insert into customers (id, first_name, last_name, email, address) values (28, 'Vasily', 'Hankin', 'vhankinr@narod.ru', '32376 Carey Pass');
+insert into customers (id, first_name, last_name, email, address) values (29, 'Lorna', 'Parncutt', 'lparncutts@fda.gov', '50 Esch Avenue');
+insert into customers (id, first_name, last_name, email, address) values (30, 'Joshuah', 'Blackboro', 'jblackborot@wikimedia.org', '3138 Knutson Street');

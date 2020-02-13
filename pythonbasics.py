@@ -1,0 +1,2 @@
+myName = "june"
+print (myName)

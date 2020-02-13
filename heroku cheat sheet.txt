@@ -1,0 +1,17 @@
+heroku
+1. making the connection
+connect to your heroku account
+connect to db using psycopg2
+dbname,host,user,password
+2. open a cursor to perform db
+  cur=conn.cursor
+*create table
+*Insert record to table
+*select from
+3. Make cahnges persistent
+conn.commit()
+4.Close the connections
+5.Push application to heroku
+*git add .
+*git commit -am ""
+*git push heroku master

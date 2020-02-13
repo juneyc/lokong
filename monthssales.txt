@@ -1,0 +1,5 @@
+SELECT EXTRACT (MONTH FROM sares.created_at) AS MONTHS , SUM (sares.quantity) as "TOTAL SALES"
+FROM PUBLIC. sales
+GROUP BY
+months
+ORDER BY months

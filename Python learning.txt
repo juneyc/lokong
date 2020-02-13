@@ -1,0 +1,36 @@
+*venv- virtual env folder- manage all the libraries and modules in a python app
+*should create venv folder specific to the specific project
+*running pyhton code- either fail/pass. if you get a fail check on the console
+*print function- inbuilt python function to display/output sth on the console
+print("hello wolrd")
+
+keywords:
+*if
+*not
+*def
+*while
+*else
+
+Identifiers
+*variables in programming- named location used to store data in comp memory
+rules of naming
+-camel case e.g (totalMarks)
+-snake type (underscore)
+-cannot start with a number
+-not contain special character
+-cannot contain keywords (if, else, class)
+*comments in python are written using (these are ignored)
+#
+"""
+use also multiline comment
+"""
+
+Variables;
+# creating a variable to hold my name
+myname = "june" 
+
+
+checking the type of a variabel use the type () function
+
+myName= "june" a string
+myAge

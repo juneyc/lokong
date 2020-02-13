@@ -1,0 +1,87 @@
+Name: Charlene Yego
+Location: Nairobi 
+
+SQL-Structured query language-strict;(can't store a string where integer is required)
+No SQL- for unstrucured data (not strict; take info as it comes); 
+ -JSON (APIs)database
+
+excel-:
+
+ERD-Entity Relationship Diagram
+
+benefits of SQL:
+1. Limited storage of spreadsheet
+2. Relationship for solving redundancies
+3. Logical representation of your database(ERD)
+
+
+diff databases in SQL
+
+1)MySQL
+2)PostgreSQL
+3)MSSQL
+4)Oracle
+5)SQLite-mostly in android -80%
+
+No SQL (xml-SOAP,JSON=ReST)
+
+1)Mongo DB
+2)Firebase
+3)Cassandra (BTS logs)
+
+
+RDBMS-Relational Database Management System- every table relates with another.
+
+relationships in records
+1. one to one- one record from a parent table relates to only one record in a child table
+2.one to many- one record from parent table relates to one or more tables from the child table
+3.many to many (doesn't exist- reason is that it causes redundancy)
+
+foreign key and primary key
+1. Primary Key- is a field in a table that uniquely identifies a record:
+-id (primary key)
+2.Foreign Key- 
+
+
+create query:(used when you want to create a table/database)
+select- fetch data from table(s)
+insert- a record in a table
+update- change an existing record/table
+delete-remove records from a table
+
+select *-means columns not rows(SELECT... * FROM...;)
+
+if you want to filter a row you add a modifier (where)
+Lazy loading-brings a limited number of rows then brings the rest slowly
+
+
+creta a schema that has 8 tables
+
+INSERT INTO Products (ProductName,SupplierID,CategoryID,Unit,Price) VALUES ('Bear Bear Soups', 2,7,'50 Litres',40.67);
+SELECT * FROM OrderDetails ORDER BY OrderDetailID DESC LIMIT 1;
+normalization-breaking down DB until there is almost no redundancy
+space allocation
+
+JOIN: SELECT o.OrderID,c.CustomerID,c.CustomerName,c.Address,c.City,c.Country,o.OrderDate FROM Customers as C INNER JOIN Orders as o ON c.CustomerID = o.CustomerID;
+
+SELECT o.OrderID,c.CustomerID,c.CustomerName,c.Address,c.City,c.Country,o.OrderDate,e.FirstName,e.LastName FROM Customers as C JOIN Orders as o JOIN Employees as e ON c.CustomerID = o.CustomerID and e.EmployeeID=O.EmployeeID
+
+SELECT * FROM Customers as c LEFT JOIN Orders o on c.customerid=o.customerid
+
+Pgadmin 4, postgre sql 10- download
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

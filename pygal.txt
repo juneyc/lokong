@@ -1,0 +1,11 @@
+1.templates
+2.psycopg2
+
+Data visualizations-write charts after having learnt postgresql
+-line graph
+-bar charts
+
+Template Inheritance;
+pygal is an external lib
+uri-interprets resource in a way that can easily drawn in html (eg charts)
+URI- Unique Resource Identifier

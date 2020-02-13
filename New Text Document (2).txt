@@ -1,0 +1,60 @@
+
+CSS- cascading style sheets(colors)
+JAVA SCRIPT-
+<h1> heading 1
+<p> paragragh </p>
+open and close and continue writing code
+
+html5- more capability in media.
+     - validate forms
+     -more advanced than html
+
+<tag>
+< anything inside the tag is an element e.g title in head>
+IDE- Integrated development environment
+object oriented cases (use caps otherwise you should always use small letters)
+
+ATTRIBUTES
+<a>- anchor tag <a href(a modifier for 'a' tag used for links)
+images <img>
+img src (source of image), width, height, alt (alternative text- incase image doesn't load especially helpful for blind users)
+save image in the home folder(root)- myinfo. If in a folder mention folder name then/then image name)
+
+keywords- reserved words in a programming language
+for, if, pass, elif, def,except, try, or, and
+datatypes:list, strings, numbers(integer, float)
+inbuilt functions-come with the language(python)
+
+STRINGS
+Indexing- specific character in a string
+Slicing- getting a range in a string(+ve or -ve(reverse))
+       -start:stop:step
+Data structures: way of managing data in comp memory.
+a)List- collection of more than one variable[]-mutable
+b)Tuple-( can use parentheses)or e.g x= 1,2,3,4,5-immutable
+c)Dictionary-unordered collection of items {}- key value pairs(key-must be unique), value-can be any data type
+
+LISTS
+a.(inbuilt method for lists-.reverse, .count, .remove, .pop,.sort
+
+ifStatements-decision
+if, else, elif
+if test expression (if true)
+else (false)
+elif (many test expressions)
+
+Identifiers-name that refers to a variable
+single line -hashtag
+multiline-triple quotes
+
+Operators
+-arithmetic-,+,%,..//,*,/
+-logical-and, or, not
+-membership-in, not in (deals with lists)
+-identify-is, is not
+-assignment opertors-
+-bitwise OR,AND,XOR e.g a/b=or, a&b=and, a^b=perform XOR operation on each bit of the number,a>>b
+
+
+
+HTML STYLE (attribute)
